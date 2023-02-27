@@ -1,6 +1,6 @@
 # app
 
-A static site base on [dumi](https://d.umijs.org).
+A static site base on [dumi](https://d.umijs.org). （Hello blog）
 
 ## Development
 
