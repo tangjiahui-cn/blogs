@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      你好啊! 欢迎来到我的博客！
+      2023/02/27
     </div>
   )
 }
