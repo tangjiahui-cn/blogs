@@ -1,0 +1,74 @@
+:root {
+  --bg-color: white;
+  --primary-color: #1e80ff;
+}
+
+html body .dumi-default-logo img {
+  border-radius: 50%;
+}
+
+html body .dumi-default-doc-layout {
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+}
+
+html body div div > .dumi-default-header {
+  background-color: var(--bg-color) !important;
+}
+
+html body .dumi-default-search-bar {
+  display: none;
+}
+
+html body .dumi-default-header-right {
+  justify-content: flex-start;
+  flex: 0 0 auto;
+}
+
+html body .dumi-default-navbar > li:not(:last-child) {
+  margin-inline-end: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  html body .dumi-default-navbar > li:not(:last-child) {
+    margin-inline-end: 0;
+  }
+}
+
+html body .dumi-default-header-right-aside {
+  margin-left: 24px;
+}
+
+html body .dumi-default-header-content {
+  background-color: white;
+  border-bottom: 1px solid #e8e8e8;
+  justify-content: space-between;
+}
+
+html body .dumi-default-navbar > li {
+  font-size: 16px;
+}
+
+html body .dumi-default-navbar li > .active {
+  color: var(--primary-color);
+}
+
+html body .dumi-default-content {
+  padding: 24px 48px 0;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 8px 24px 0 rgb(0 0 0 / 5%);
+}
+
+html body .dumi-default-content:not([data-no-sidebar]) {
+  padding: 24px 48px 0;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 8px 24px 0 rgb(0 0 0 / 5%);
+}
+
+html body .dumi-default-sidebar > dl >dt {
+  font-weight: 600;
+}
